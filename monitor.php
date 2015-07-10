@@ -2,7 +2,7 @@
 <TITLE>Evilwatcher - Monitor domains and hosts attribution</title>
 <!-- Credits to: Thiago Bordini thiago (at) bordini (dot) net -->
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/stylesheets/styles.css">
 </head>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <?php
@@ -34,15 +34,15 @@ echo "<table>";
 		if ($dados_checks["reputation"]<> ""){
 		echo "<b>Reputation : </b>". $dados_checks["reputation"];
 		if ($dados_checks["val_reputation"] >= 80){
-		    $img = "excellent.png";
+		    $img = "assets/images/excellent.png";
 		} elseif ($dados_checks["val_reputation"] >= 60){
-		    $img = "good.png";
+		    $img = "assets/images/good.png";
 		} elseif ($dados_checks["val_reputation"] >= 40){
-		    $img = "unsatisfactory.png";
+		    $img = "assets/images/unsatisfactory.png";
 		} elseif ($dados_checks["val_reputation"] >= 20){
-    		    $img = "poor.png";
+    		    $img = "assets/images/poor.png";
 		} elseif ($dados_checks["val_reputation"] >= 0){
-    		    $img = "verypoor.png";
+    		    $img = "assets/images/verypoor.png";
 		}
 		echo " <img src=".$img."> - ";
 		echo "<b>Category Reputation : </b>". $dados_checks["category"] ."<br></div></td></tr>";

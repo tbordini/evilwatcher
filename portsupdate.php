@@ -2,7 +2,7 @@
 <TITLE>Evilwatcher - Monitor domains and hosts attribution</title>
 <!-- Credits to: Thiago Bordini thiago (at) bordini (dot) net -->
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/stylesheets/styles.css">
 </head>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <br>

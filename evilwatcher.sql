@@ -19,7 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Banco de Dados: `evilwatcher`
 --
-CREATE DATABASE `evilwatcher`;
+CREATE DATABASE IF NOT EXISTS `evilwatcher`;
+USE `evilwatcher`;
 -- --------------------------------------------------------
 
 --

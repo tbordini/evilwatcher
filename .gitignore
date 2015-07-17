@@ -1,4 +1,4 @@
-# Ignores DB connect info
+# Ignores DB's connection info
 db.inc.php
 
 

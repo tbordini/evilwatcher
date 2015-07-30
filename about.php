@@ -2,7 +2,7 @@
 <TITLE>Evilwatcher - Monitor domains and hosts attribution</title>
 <!-- Credits to: Thiago Bordini thiago (at) bordini (dot) net -->
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/stylesheets/styles.css">
 </head>
 <div class='text_title'>EvilWatcher<br></div><br>
 <div class='text_p_title'>Title: Monitoring malicious domains on the Internet in real time for forensics purposes.<br><br>
